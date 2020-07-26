@@ -8,7 +8,8 @@ recipes[key] = value;
 return recipes;
 }
 function deleteFromObjectByKey(object, key){
-  
+  delete key[object];
+  return recies;
 }
 function destructivelyDeleteFromObjectByKey(){
   
