@@ -9,7 +9,7 @@ return recipes;
 }
 function deleteFromObjectByKey(object, key){
   delete key[object];
-  return recies;
+  return recipes;
 }
 function destructivelyDeleteFromObjectByKey(){
   
