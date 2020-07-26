@@ -7,7 +7,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 object[key] = value;
 return recipes;
 }
-const
+const recipes = 
 function deleteFromObjectByKey(object, key){
   delete key[object];
   return recipes;
